@@ -1,0 +1,175 @@
+/* fonts */
+
+/* Amatic SC */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* Chewy */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&display=swap');
+/* structure */
+
+
+body, html{
+    background-color: white;
+    overflow-x: hidden;
+    /* margin-bottom: 60px; */
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding-top:2px;
+}
+#body {
+    background-image: url('https://chany4.github.io/images.Portfolio/images/Desktop%20-%2020%20(1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f0f0f0; /* Fallback color */
+    min-height: 100vh;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+  
+  nav{
+    background-color: pink;
+    z-index: 2;
+  }
+  
+  .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+
+  footer{
+    background-color: pink;
+    border: 1px solid white;
+    margin-top: 10px;
+  }
+  .footer-Para{
+    margin: 5px;
+    margin-top: 10px;
+  }
+  
+  #gitPic{
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-radius: 50px;
+  }
+
+  div{
+    object-fit: contain;
+  }
+ 
+  a{
+    text-decoration: none;
+  }
+  h4{
+    font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  /* color: rgb(104, 128, 238); */
+  color: rgb(214, 103, 103);
+
+  }
+  p{
+    font-family: "Lato", sans-serif;
+  font-weight: 100 bold;
+  font-style: normal;
+  font-size: 1,3rem;
+  color: white;
+  }
+  li {
+    font-family: "Lato", sans-serif;
+  font-weight: 100 bold;
+  font-style: normal;
+  font-size: 1,3rem;
+  color: white;
+  }
+  
+  /* Landing Section */
+
+#Landing {
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 25%;
+    background-color: white;
+    padding: 20px;
+    max-width: max-content;
+}
+  /* About Section */
+
+  #about{
+    margin-top: 30%;
+    margin-bottom: 20%;
+    background-color: white;
+  }
+  #self2{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    padding-top:15px ;
+}
+#brief-Para{
+    background-color: rgb(226, 68, 68);
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+  /* resume section */
+
+#resume{
+    background-image: linear-gradient(135deg,#ff8db7, #ffb7d2, #dfbbc7, #d193b4, #dfbbc7,#fdb3da, #ffb7d2, #ff8db7);
+    padding: 4%;
+}  
+#self3 {
+    width: 90%;
+    height: 97%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    padding-top:15px ;
+}
+
+  /* Media Queries */
+  
+
+/* xs*/
+@media only screen and (max-width: 600px) {
+    #body {
+        background-size: contain;
+    }
+}
+
+/* sm */
+@media only screen and (min-width: 600px) {
+    #body {
+        background-size: contain;
+    }
+}
+
+/* md */
+@media only screen and (min-width: 768px) {
+    #body {
+        background-size: cover;
+    }
+}
+
+/* lg */
+@media only screen and (min-width: 992px) {
+    #body {
+        background-size: cover;
+    }
+}
+
+/*xxl*/
+@media only screen and (min-width: 1200px) {
+    #body {
+        background-size: contain;
+    }
+}
+
